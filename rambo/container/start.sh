@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# mv /apps/config.ini /opt/steam/soldat/soldat.ini
+cp /apps/config.ini /opt/steam/soldat/soldat.ini
 
 # Creating map list based on game mode
 if [ "$GAMEMODE" == "0" ] || [ "$GAMEMODE" == "1" ] || [ "$GAMEMODE" == "2" ] || [ "$GAMEMODE" == "4" ]; then

@@ -1,6 +1,6 @@
 FROM centos:8
 
-RUN yum update -y &&  yum install -y glibc.i686 libstdc++.i686 libgcc_s.so.1 wget vim && yum clean all
+RUN yum update -y &&  yum install -y glibc.i686 libstdc++.i686 libgcc_s.so.1 wget nano && yum clean all
 
 ADD ./container /app
 
